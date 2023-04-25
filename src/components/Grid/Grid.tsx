@@ -5,7 +5,7 @@ const projects = [
   {
     id: 0,
     title: "LinkedOut",
-    image: "",
+    image: "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg",
     link: "https://linked-out-dev-nilson.vercel.app",
   },
   {
