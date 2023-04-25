@@ -1,4 +1,11 @@
 .grid {
+  &__title {
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+  }
+
   &__projects {
     display: flex;
     align-items: center;
