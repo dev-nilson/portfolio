@@ -1,30 +1,48 @@
 import Card from "../Card/Card";
+import inflazon from "../../assets/inflazon.png";
+import finstagram from "../../assets/finstagram.png";
+import finger from "../../assets/finger.png";
+import linkedout from "../../assets/linkedout.png";
+import readit from "../../assets/readit.png";
+import tweetitout from "../../assets/tweetitout.png";
 import "./Grid.scss";
 
 const projects = [
   {
-    id: 0,
-    title: "LinkedOut",
-    image: "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg",
-    link: "https://linked-out-dev-nilson.vercel.app",
-  },
-  {
     id: 1,
     title: "Finstagram",
-    image: "",
+    image: finstagram,
     link: "https://finstagram-dev-nilson.vercel.app",
+  },
+  {
+    id: 0,
+    title: "LinkedOut",
+    image: linkedout,
+    link: "https://linked-out-dev-nilson.vercel.app",
   },
   {
     id: 2,
     title: "Finger",
-    image: "",
+    image: finger,
     link: "https://finger-dev-nilson.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Readit",
-    image: "",
+    image: readit,
     link: "https://readit-dev-nilson.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Inflazon",
+    image: inflazon,
+    link: "https://inflazon-dev-nilson.vercel.app",
+  },
+  {
+    id: 5,
+    title: "TweetItOut",
+    image: tweetitout,
+    link: "https://tweet-it-out-dev-nilson.vercel.app",
   },
 ];
 
@@ -32,6 +50,7 @@ function Grid() {
   return (
     <div className="grid">
       <div className="container">
+        <h1 className="grid__title">Projects</h1>
         <div className="grid__projects">
           {projects.map((project) => (
             <Card
