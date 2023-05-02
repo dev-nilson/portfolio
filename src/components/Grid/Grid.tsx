@@ -44,6 +44,12 @@ const projects = [
     image: tweetitout,
     link: "https://tweet-it-out-dev-nilson.vercel.app",
   },
+  {
+    id: 6,
+    title: "GoogleDoes",
+    image: tweetitout,
+    link: "https://google-does-dev-nilson.vercel.app",
+  },
 ];
 
 function Grid() {
