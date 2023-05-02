@@ -5,6 +5,7 @@ import finger from "../../assets/finger.png";
 import linkedout from "../../assets/linkedout.png";
 import readit from "../../assets/readit.png";
 import tweetitout from "../../assets/tweetitout.png";
+import googledoes from "../../assets/googledoes.png";
 import "./Grid.scss";
 
 const projects = [
@@ -47,7 +48,7 @@ const projects = [
   {
     id: 6,
     title: "GoogleDoes",
-    image: tweetitout,
+    image: googledoes,
     link: "https://google-does-dev-nilson.vercel.app",
   },
 ];
